@@ -1,0 +1,252 @@
+body{
+    background-image:url(image/logo4.webp);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif ;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+section{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    justify-content:space-around;
+    
+}
+section .main .men_text h1{
+     margin-bottom: 400px
+}
+section nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: gray;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 7px 0;
+}
+section nav ul{
+    list-style:none;
+}
+section nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+section nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.1s;
+}
+section nav ul li a::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: orange;
+    display: block;
+}
+section nav ul li a:hover::after{
+    width: 100%;
+}
+section nav ul li a:hover{
+    color:orange;
+}
+section .icon i{
+    font-size: 10px;
+    color:black;
+    margin:0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+section .main{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    position: relative;
+    top: 130px;
+}
+section .main .men_text h1{
+    font-size: 60px;
+    position: relative;
+    top: 90px;
+    left: 20px;
+}
+section .main .men_text h1 span{
+    margin-left: 15px;
+    color: orange;
+    font-family: mv boli;
+    line-height: 22px;
+    font-size: 70px;
+}
+section .main .main_image img{
+    width: 700px;
+    position: relative;
+    left: 70px;
+}
+section .com{
+    width: 300px;
+    text-align: justify;
+    position: relative;
+    left: 130px;
+    bottom: 120px;
+    line-height: 22px;
+    box-sizing: border-box;
+    margin: 0;
+
+    
+}
+section .main_btn{
+    background: orange;
+    position: relative;
+    left: 123px;
+    bottom: 30px;
+    width: 150px;
+    cursor: pointer;
+    padding: 12px 25px;
+    border-radius: 20px;
+}
+section .main_btn a{
+    color: white;
+    margin-right:5px;
+    text-decoration: none;
+}
+section .main_btn i{
+    color: white;
+    transition: 0.3s
+}
+section .main_btn:hover i{
+    transition: translatex(7px);
+}
+div .image img{
+    margin-top:200px;
+    position: relative;
+    width:600px;
+}   
+div .image {
+    align-items: center;
+    justify-content:space-around ;
+    display: flex;
+    margin-left: 50px;
+    
+}
+div .image .comm{
+    margin-left: 8%;
+    margin-top: 10%;
+    
+}
+div .image .comm h2{
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align:center;
+    max-width: fit-content;
+    background-color: gray;
+    font-family: mv;
+}
+.sui{
+    margin-top: 6%;
+    position: relative;
+    margin-left: 4%;
+    max-width: max-content;
+    display: inline-flex;
+   
+
+}
+.sui img{
+    width: 70%;
+    align-items: center;
+    margin-top: 10%;
+}
+.sui .suit1 h2{
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align:center;
+    max-width: fit-content;
+    background-color: gray;
+    font-family: mv;
+    margin-bottom:3%;
+    margin-top: 7px;
+}
+.sui .suit2{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+}
+.sui .suit2 h2{
+    margin-top: 7px;
+     margin-bottom:3%;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align:center;
+    max-width: fit-content;
+    background-color: gray;
+    font-family: mv;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+footer div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 8%;
+}
+.contact{
+    border: 1px solid;
+    border-radius: 10px;
+    display:inline-block;
+    background-color: orangered;
+    width: 20%;
+}
+.page{
+    border: 1px solid;
+    border-radius: 10px;
+    display:inline-block;
+    background-color:gray;
+    width: 20%;
+}
+.Commande{
+    border: 1px solid;
+    border-radius: 10px;
+    display:inline-block;
+    background-color:gray;
+    width: 20%;
+}
+.Commande a{
+    color: white;
+    font-family:monospace;
+    max-width: fit-content;
+
+}
+.page a{
+     color: white;
+    font-family:monospace;
+    max-width: fit-content;
+
+}
+.ctr {
+    margin-left: 6%;
+    border: 1px solid ;
+    padding: 1%;
+    background-color: aqua;
+    border-radius: 10px;
+}
